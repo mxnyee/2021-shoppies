@@ -14,7 +14,7 @@ const THEMES = [{
   name: "fancy",
   label: "👑 Fancy"
 }];
-const SEARCH_URL = `${"http://www.omdbapi.com/"}?apikey=${"91559dab"}&s=`;
+const SEARCH_URL = `${"https://www.omdbapi.com/"}?apikey=${"91559dab"}&s=`;
 
 const fetchMovies = async query => {
   const res = await window.fetch(`${SEARCH_URL}${encodeURIComponent(query)}`);
