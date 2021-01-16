@@ -1,6 +1,8 @@
 # 2021-shoppies
 
-Uses the [Open Movie Database API](https://www.omdbapi.com/).
+## Deployment
+
+Deployed using GitHub Pages at https://mxnyee.github.io/2021-shoppies/.
 
 ## Installation
 
