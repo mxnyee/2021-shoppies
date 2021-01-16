@@ -1,0 +1,31 @@
+{
+    "name": "2021-shoppies",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "env-cmd npx babel --watch src --out-dir build --presets=@babel/preset-react --plugins=babel-plugin-transform-inline-environment-variables",
+        "start": "serve",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mxnyee/2021-shoppies.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mxnyee/2021-shoppies/issues"
+    },
+    "homepage": "https://github.com/mxnyee/2021-shoppies#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/preset-react": "^7.12.10",
+        "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+        "env-cmd": "^10.1.0",
+        "serve": "^11.3.2"
+    }
+}
